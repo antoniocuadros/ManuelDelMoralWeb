@@ -1,0 +1,10 @@
+.NavBarMainContainer{
+  background-color: #FFC4A7;
+  width: 100%;
+}
+
+.NavBarItemContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
