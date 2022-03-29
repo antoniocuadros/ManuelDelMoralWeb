@@ -3,7 +3,9 @@ import './NavBarButton.css';
 
 export const NavBarButton = () => {
   return (
-    <input type="button" className="NavBarButton" value="Contact me"/>
+    <div className="NavBarButtonContainer">
+      <input type="button" className="NavBarButton" value="Contact me"/>
+    </div>
   )
 }
 

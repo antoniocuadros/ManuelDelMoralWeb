@@ -3,7 +3,12 @@ import './NavBarLogo.css';
 
 export const NavBarLogo = () => {
   return (
-    <input type="button" className="NavBarLogo" value="Logo"/>
+    <div className="NavBarLogoContanerBig">
+      <div className="NavBarLogoContaner">
+        <p className="NavBarLogoTitle">Manuel del Moral</p>
+        <p className="NavBarLogoSubTitle">Solo pianist</p>
+      </div>
+    </div>
   )
 }
 

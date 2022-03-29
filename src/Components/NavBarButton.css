@@ -1,11 +1,15 @@
+.NavBarButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-end;
+    width: 25%;
+}
+
 .NavBarButton{
     all: unset;
-    margin: 1vw;
+    display: flex;
     padding: 1vw;
-    position: absolute;
-    right: 0;
-    top: 0;
-
     opacity: 0.6;
     font-size: 12px;
     line-height: 20px;
