@@ -7,7 +7,7 @@ function AboutMe() {
     <div className="AboutMeContainer">
       <img src={imageMain} alt="Manuel Del Moral with piano" className="AboutMeImageContainer"></img> 
     
-      <div className="AboutMeTextContainer">
+      <div className="AboutMeTextContainer"  id="aboutme">
         <p className="AboutMeTitle">Manuel Del Moral</p>
         <p className="AboutMeText">
         Pianista nacido en Granada en 1996, empezó a tocar el piano con 4 años e ingresó en el conservatorio Profesional de Granada «Ángel Barrios» a la edad de 7.
