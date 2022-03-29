@@ -7,19 +7,18 @@ function AboutMe() {
     <div className="AboutMeContainer">
       <img src={imageMain} alt="Manuel Del Moral with piano" className="AboutMeImageContainer"></img> 
     
-      <div className="AboutMeTextContainer"  id="aboutme">
-        <p className="AboutMeTitle">Manuel Del Moral</p>
+      <div className="AboutMeTextContainer"  id="aboutme" data-aos="fade-up" data-aos-easing="ease">
+        <p className="AboutMeTitle">About me</p>
         <p className="AboutMeText">
-        Pianista nacido en Granada en 1996, empezó a tocar el piano con 4 años e ingresó en el conservatorio Profesional de Granada «Ángel Barrios» a la edad de 7.
-        </p>  
+          Pianist born in Granada in 1996, he started playing the piano at the age of 4 and entered the Professional Conservatory of Granada "Angel Barrios" at the age of 7.        </p>  
         <p className="AboutMeText">      
-        Ha recibido clases de Domenico Codispoti, Gustavo Diaz Jerez, Alexander Kandelaki o Giovanni Bellucci, entre otros.
+          He has received lessons from Domenico Codispoti, Gustavo Diaz Jerez, Alexander Kandelaki or Giovanni Bellucci, among others.
         </p>
         <p className="AboutMeText">
-        Finalizó sus estudios profesionales en 2016 con Javier Herreros con las máximas calificaciones en piano y ha realizado recitales de piano solo y de música de cámara por todo el territorio español, destacando su participación en el FEX de Granada y realizando a su vez concursos nacionales e internacionales, obteniendo primer premio en el concurso de cámara del conservatorio Ángel Barrios, donde también obtuvo segundo premio un año antes, primer premio en el concurso del Conservatorio Joaquín Villatoro de Jerez, así como segundo premio en el concurso de la Diputacion de Granada. Cabe destacar también su participacion en el concurso internacional de cámara de la ciudad de Bydgoszcz, en Polonia, en el año 2019.
+          He finished his professional studies in 2016 with Javier Herreros with the highest qualifications in piano and has performed solo piano and chamber music recitals throughout the Spanish territory, highlighting his participation in the FEX of Granada and performing in turn national and international competitions, obtaining first prize in the chamber competition of the conservatory Angel Barrios, where he also won second prize a year earlier, first prize in the competition of the Conservatory Joaquin Villatoro de Jerez, as well as second prize in the competition of the Deputation of Granada. It is also worth mentioning his participation in the international chamber music competition in the city of Bydgoszcz, Poland, in 2019.
         </p>
         <p className="AboutMeText">
-        Graduado en el año 2020 por el Real Conservatorio de Música de Madrid bajo la tutela de Pilar Bilbao y Mariana Gurkova y en 2021 realizó el máster de interpretación solista en el conservatorio de música Katarina Gurska de Madrid junto a Mariana Gurkova.
+          Graduated in 2020 from the Royal Conservatory of Music of Madrid under the tutelage of Pilar Bilbao and Mariana Gurkova and in 2021 completed the master's degree in solo performance at the Katarina Gurska Conservatory of Music in Madrid with Mariana Gurkova.
         </p>
       </div>
     </div>
