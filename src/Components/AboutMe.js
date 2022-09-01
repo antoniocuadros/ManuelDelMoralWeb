@@ -1,5 +1,4 @@
 import './AboutMe.css';
-import image1 from '../images/image2.jpg';
 import imageMain from '../images/image1copy.jpg';
 
 function AboutMe() {

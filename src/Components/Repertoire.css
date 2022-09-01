@@ -1,0 +1,85 @@
+.RepertoireContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FFC4A7;
+    width: 100%;
+}
+
+.RepertoireTitle{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    opacity: 1;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    margin: 2vw;
+    margin-left: 5vw;
+}
+
+
+.RepertoireList{
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.RepertoireItem{
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+
+    width: 23.32%;
+
+    margin-bottom: 2vw;
+
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: rgba(197,117,79,0.5);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.RepertoireItem:not(:first-child){
+    margin-left: 2vw;
+}
+
+.RepertoireItem:hover{
+    background-color: rgba(197,117,79,0.7);
+}
+
+
+.RepertoireItemTitle{
+    width: 80%;
+    margin: 1vw;
+    text-align: center;
+}
+
+
+.RepertoireItemAuthor{
+    width: 20%;
+    margin: 1vw;
+    text-align: center;
+}
+
+.RepertoireItemTitle p, .RepertoireItemAuthor p{
+    font-size: 14px;
+    font-weight: 00;
+    letter-spacing: 1px;
+}
+
+.RepertoireItemAuthor p{
+    font-weight: 700;
+}
+
+
