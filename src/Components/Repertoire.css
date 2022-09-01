@@ -1,10 +1,18 @@
+.RepertoireContainerMargin{
+    background-color: #FFC4A7;
+    width: 100%;
+}
+
 .RepertoireContainer{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: #FFC4A7;
-    width: 100%;
+
+    
+    margin-left: 5vw;
+    margin-right: 5vw;
+
 }
 
 .RepertoireTitle{
@@ -15,9 +23,8 @@
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
-
-    margin: 2vw;
-    margin-left: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 }
 
 
@@ -27,15 +34,13 @@
     flex-wrap: wrap;
     flex-direction: row;
 
-    margin-left: 5vw;
-    margin-right: 5vw;
 }
 
 .RepertoireItem{
     padding-top: 3vw;
     padding-bottom: 3vw;
 
-    width: 23.32%;
+    width: 317px;
 
     margin-bottom: 2vw;
 
@@ -47,11 +52,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-
-}
-
-.RepertoireItem:not(:first-child){
-    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 .RepertoireItem:hover{
