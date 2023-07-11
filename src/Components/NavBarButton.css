@@ -28,8 +28,6 @@
 }
 
 @media (max-width: 450px) {
-    .NavBarButtonContainer {
-    }
     .NavBarButton{
        font-size: 10px;
     }

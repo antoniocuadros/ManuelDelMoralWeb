@@ -19,4 +19,8 @@ html {
   .NavBarItemContainer {
     display: none;
   }
+  
+  .NavBarMainContainer{
+    height: 60px;
+  }
 }
