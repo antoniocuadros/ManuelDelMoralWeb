@@ -43,3 +43,20 @@
     text-transform: uppercase;
     font-weight: 700;
 }
+
+@media (max-width: 450px) {
+    .NavBarLogoContainerBig{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin:5px;
+    }
+
+    .NavBarLogoTitle{
+        font-size: 18px;
+    }
+
+    .NavBarLogoSubTitle{
+        display: none;
+    }
+}

@@ -6,8 +6,6 @@
 }
 
 .NavBarButton{
-    all: unset;
-    display: flex;
     padding: 1vw;
     margin-left: 1vw;
     margin-right: 1vw;
@@ -21,9 +19,18 @@
     background-color: #C5754F;
     font-weight: 700;
     color: white;
+    border: 0px solid;
 }
 
 .NavBarButton:hover{
     cursor: pointer;
     opacity: 0.8;
 }
+
+@media (max-width: 450px) {
+    .NavBarButtonContainer {
+    }
+    .NavBarButton{
+       font-size: 10px;
+    }
+  }

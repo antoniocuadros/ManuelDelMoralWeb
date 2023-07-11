@@ -9,9 +9,9 @@ function App() {
     <div className="NavBarMainContainer">
         <NavBarLogo />
         <div className="NavBarItemContainer">
-          <NavBarMenuItem itemText={"About me"} link={"aboutme"} delay={300}/>
-          <NavBarMenuItem itemText={"Repertoire"} link={"repertoire"} delay={350}/>
-          <NavBarMenuItem itemText={"Media"} link={"media"} delay={400}/>
+          <NavBarMenuItem className='item' itemText={"About me"} link={"aboutme"} delay={300}/>
+          <NavBarMenuItem className='item' itemText={"Repertoire"} link={"repertoire"} delay={350}/>
+          <NavBarMenuItem className='item' itemText={"Media"} link={"media"} delay={400}/>
         </div>
         <NavBarButton />
     </div>
