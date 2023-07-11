@@ -16,7 +16,7 @@ function AboutMe() {
     infinite: false,
     speed: 600,
     slidesToShow: 3,
-    slidesToScroll: 6,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 1024,
