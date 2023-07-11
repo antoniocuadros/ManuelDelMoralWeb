@@ -1,32 +1,90 @@
 import './AboutMe.css';
 import imageMain from '../images/image1copy.jpg';
+import imageAbout from '../images/imageAbout.jpg';
+import image1 from '../images/slider/1.jpg';
+import image2 from '../images/slider/2.jpg';
+import image3 from '../images/slider/3.jpg';
+import image4 from '../images/slider/4.jpg';
+import image5 from '../images/slider/5.jpg';
+import image6 from '../images/slider/6.jpg';
+import image7 from '../images/slider/7.jpg';
+import Slider from "react-slick";
 
 function AboutMe() {
+  var settings = {
+    dots: true,
+    infinite: false,
+    speed: 600,
+    slidesToShow: 3,
+    slidesToScroll: 6,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
+
   return (
     <div className="AboutMeContainer">
       <img src={imageMain} alt="Manuel Del Moral with piano" className="AboutMeImageContainer"></img> 
-    
-      <div className="AboutMeTextContainer"  id="aboutme">
+      <div className='AboutMeHeader'>
+            <p className="AboutMeTitle"  id="aboutme">About me</p>
+            <p className="AboutMeName"></p>
+      </div>
+      <div className="AboutMeTextContainer">
         <div className='AboutMeTextFirstColumn'>
-          <div className='AboutMeHeader'>
-            <p className="AboutMeName">Manuel Del Moral</p>
-            <p className="AboutMeTitle">About me</p>
-          </div>
-          <p className="AboutMeText">
-            Pianist born in Granada in 1996, he started playing the piano at the age of 4 and entered the Professional Conservatory of Granada "Angel Barrios" at the age of 7.        </p>  
-          <p className="AboutMeText">      
-            He has received lessons from Domenico Codispoti, Gustavo Diaz Jerez, Alexander Kandelaki or Giovanni Bellucci, among others.
-          </p>
-          <p className="AboutMeText">
-            He finished his professional studies in 2016 with Javier Herreros with the highest qualifications in piano and has performed solo piano and chamber music recitals throughout the Spanish territory, highlighting his participation in the FEX of Granada and performing in turn national and international competitions, obtaining first prize in the chamber competition of the conservatory Angel Barrios, where he also won second prize a year earlier, first prize in the competition of the Conservatory Joaquin Villatoro de Jerez, as well as second prize in the competition of the Deputation of Granada. It is also worth mentioning his participation in the international chamber music competition in the city of Bydgoszcz, Poland, in 2019.
-          </p>
-          <p className="AboutMeText">
-            Graduated in 2020 from the Royal Conservatory of Music of Madrid under the tutelage of Pilar Bilbao and Mariana Gurkova and in 2021 completed the master's degree in solo performance at the Katarina Gurska Conservatory of Music in Madrid with Mariana Gurkova.
-          </p>
+          <img src={imageAbout} alt="Manuel Del Moral with piano" className="AboutMeImage2Container"></img>
         </div>
         <div className='AboutMeTextSecondColumn'>
+          <p className="AboutMeText">
+            Pianist born in Granada in 1996, a student of the Spanish pianist Javier Herreros until 2016, he has received classes from Domenico Codispoti, Gustavo Diaz Jerez, Alexander Kandelaki and Giovanni Bellucci, among others. He finished his professional studies in 2016 with Javier Herreros and has performed solo piano and chamber music recitals throughout Spain, highlighting his participation in the Granada Festival, the auditorium Ciudad de Albacete, or the Reina Sofía museum in Madrid, and holding international competitions, obtaining first prize in the Granada Conservatory chamber competition, first prize in the Jerez Conservatory competition, among others. He also participated in the international camera competition of the city of Bydgoszez, in Poland, in 2019, where he was a finalist. Subsequently, he graduated from the Royal Conservatory of Music in Madrid under professor Pilar Bilbao and recently completed a master's degree in solo performance at the Katarna Gurska Superior Conservatory under the mentorship of the renowned Bulgarian pianist Marina Gurkova.
+          </p>  
+          <p className="AboutMeText2">
+            After suffering an injury to the thumb of his right hand, which required surgery, he specialized in left-hand repertoire, leaving a small sample of it on a recent CD made in a recording studio he has at home, which includes pieces solely for said hand by Scriabin, as well as works by Rachmaninoff and Beethoven. He currently resides in Madrid, where he develops several projects with other musicians in the field of chamber music, highlighting his duet with the clarinetist Daniel Molina, and where he continues to train. as a pianist Currently, he is offering recitals with a repertoire inspired by the city of Granada, taking a sound tour of the city, which he has been able to perform in a recital he gave in Geneva in 2022 and at the Granada Conference Center this same year. In addition, he will have the opportunity to perform it at the first Aguere music festival, in Tenerife, as well as in the city of Constanza and in the European Parliament.          
+          </p>
         </div>
       </div>
+        <Slider {...settings} className='sliderimg'>
+          <div>
+            <img src={image1} className="imgc img-fluid"></img> 
+          </div>
+          <div>
+            <img src={image7} className="imgc img-fluid"></img> 
+          </div>
+          <div>
+            <img src={image6} className="imgc img-fluid"></img> 
+          </div>
+          <div>
+            <img src={image5} className="imgc img-fluid"></img> 
+          </div>
+          <div>
+            <img src={image3} className="imgc img-fluid"></img> 
+          </div>
+          <div>
+            <img src={image6} className="imgc img-fluid"></img> 
+          </div>
+        </Slider>
     </div>
   );
 }
