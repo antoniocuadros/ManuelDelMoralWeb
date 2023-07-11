@@ -104,6 +104,7 @@
 
 .imgc{
     width: 97%;
+    border-radius: 18px;
 }
 
 @media (max-width: 450px) {
