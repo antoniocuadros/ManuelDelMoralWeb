@@ -146,4 +146,8 @@
     .AboutMeText2, .AboutMeText{
         width: 100%;
     }
+
+    .AboutMeTitle{
+        font-size: 25px;
+    }
   }
