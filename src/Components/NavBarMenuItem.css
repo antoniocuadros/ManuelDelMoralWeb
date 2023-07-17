@@ -11,5 +11,6 @@
 
 .NavBarMenuItem:hover{
     cursor: pointer;
-    opacity: 0.8;
+    opacity: 1;
+    font-weight: 700;
 }
