@@ -55,7 +55,6 @@ function AboutMe() {
         <img src={imageMain} alt="Manuel Del Moral with piano" className="AboutMeImageContainer"></img> 
         <div className='AboutMeHeader'>
               <p data-aos="fade-right" className="AboutMeTitle"id="aboutme">About me</p>
-              <p className="AboutMeName"></p>
         </div>
         <div className="AboutMeTextContainer">
           <div className='AboutMeTextFirstColumn'>

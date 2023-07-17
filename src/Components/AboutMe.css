@@ -73,7 +73,6 @@
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 20px;
     text-align: justify;
     font-weight: 700;
 }
@@ -83,6 +82,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 .AboutMeTitle{
