@@ -10,7 +10,7 @@ function Media() {
         </div>
         <div className="AboutMeTextContainer2">
           <div className='AboutMeTextSecondColumn2'>
-            <video loop autoPlay controls>
+            <video loop autoPlay controls data-aos="fade-right">
               <source src={videoMain} type="video/mp4" />
             </video>
           </div>
