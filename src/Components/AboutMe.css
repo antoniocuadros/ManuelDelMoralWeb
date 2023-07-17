@@ -15,7 +15,8 @@
     background-color: #fdb490;
     background: linear-gradient(#fdb490, rgba(255, 196, 167, 1));
     background: rgb(253,180,144);
-    background: linear-gradient(176deg, rgba(253,180,144,1) 90%, rgba(255,196,167,1) 80%, rgba(255,196,167,1) 100%);
+    background: linear-gradient(180deg, rgba(253,180,144,1) 95%, rgba(255,196,167,1) 98%, rgba(255,196,167,1) 100%);
+    padding-bottom: 60px;
 }
 
 .AboutMeImageContainer{
@@ -91,12 +92,12 @@
 .AboutMeTitle{
     all: unset;
     margin-bottom: 1vw;
-    opacity: 1;
-    font-size: 36px;
+    font-size: 31px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    opacity: 0.6;
+    opacity: 1;
+    color: black;
 }
 #aboutme{
     opacity: 0.6;
