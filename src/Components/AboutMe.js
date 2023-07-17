@@ -52,7 +52,7 @@ function AboutMe() {
   return (
     <div className='back'>
       <div className="AboutMeContainer">
-        <img src={imageMain} alt="Manuel Del Moral with piano" className="AboutMeImageContainer"></img> 
+        <img src={imageMain} alt="Manuel Del Moral with piano" className="AboutMeImageContainer"></img>
         <div className='AboutMeHeader'>
               <p data-aos="zoom-in" data-aos-duration="1000" className="AboutMeTitle"id="aboutme">About me</p>
         </div>
