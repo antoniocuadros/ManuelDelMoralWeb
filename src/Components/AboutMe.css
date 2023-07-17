@@ -13,7 +13,9 @@
 
 .back{
     background-color: #fdb490;
-    padding-bottom: 20px;
+    background: linear-gradient(#fdb490, rgba(255, 196, 167, 1));
+    background: rgb(253,180,144);
+    background: linear-gradient(176deg, rgba(253,180,144,1) 90%, rgba(255,196,167,1) 80%, rgba(255,196,167,1) 100%);
 }
 
 .AboutMeImageContainer{
