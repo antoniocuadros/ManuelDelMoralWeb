@@ -1,12 +1,24 @@
 .FooterMainContainer{
-    background-color: #FFC4A7;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     border-top: 1px solid #C5754F;
-    opacity: 0.9;
 
     font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 7px;
+    height: 100%;
+}
+
+.FooterMainContainer p{
+    align-self: center;
+    margin: 0;
+}
+
+
+@media (max-width: 450px) {
+    .Mail{
+        display: none;
+    }
 }
