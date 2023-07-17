@@ -50,12 +50,12 @@
     width: 70%;
     margin-bottom: 2vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 .AboutMeText{
-    width: 40%;
+    width: 100%;
     margin-top: 0;
     padding-top: 0;
     opacity: 1;
@@ -68,7 +68,7 @@
 }
 
 .AboutMeText2{
-    width: 40%;
+    width: 100%;
     opacity: 1;
     font-size: 14px;
     font-weight: 500;
