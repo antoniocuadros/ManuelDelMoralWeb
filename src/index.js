@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import NavBar from './Components/NavBar';
 import AboutMe from './Components/AboutMe';
-import Repertoire from './Components/Repertoire';
+import Media from './Components/Media';
 import Footer from './Components/Footer';
 import reportWebVitals from './reportWebVitals';
 
@@ -11,6 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <NavBar />
     <AboutMe />
+    <Media />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
