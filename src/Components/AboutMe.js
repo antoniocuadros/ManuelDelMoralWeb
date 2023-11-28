@@ -9,6 +9,7 @@ import image5 from '../images/slider/5.jpg';
 import image6 from '../images/slider/6.jpg';
 import image7 from '../images/slider/7.jpg';
 import Slider from "react-slick";
+import React, { useState } from 'react'; 
 
 function AboutMe() {
   var settings = {
@@ -48,6 +49,27 @@ function AboutMe() {
       }
     ]
   };
+  
+  const handleClickShow = () => { 
+    var more = document.getElementById("more");
+    var less = document.getElementById("less");
+    var text = document.getElementById("hide");
+
+      more.style.display = "none";
+      less.style.display = "block";
+      text.style.display = "block";
+  };
+
+  const handleClickHide = () => { 
+    var more = document.getElementById("more");
+    var less = document.getElementById("less");
+    var text = document.getElementById("hide");
+
+      less.style.display = "none";
+      more.style.display = "block";
+      text.style.display = "none";
+  };
+
 
   return (
     <div className='back'>
@@ -64,8 +86,10 @@ function AboutMe() {
             <p data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200" className="AboutMeText">
               Pianist born in Granada in 1996, a student of the Spanish pianist Javier Herreros until 2016, he has received classes from Domenico Codispoti, Gustavo Diaz Jerez, Alexander Kandelaki and Giovanni Bellucci, among others. He finished his professional studies in 2016 with Javier Herreros and has performed solo piano and chamber music recitals throughout Spain, highlighting his participation in the Granada Festival, the auditorium Ciudad de Albacete, or the Reina Sofía museum in Madrid, and holding international competitions, obtaining first prize in the Granada Conservatory chamber competition, first prize in the Jerez Conservatory competition, among others. He also participated in the international camera competition of the city of Bydgoszez, in Poland, in 2019, where he was a finalist. Subsequently, he graduated from the Royal Conservatory of Music in Madrid under professor Pilar Bilbao and recently completed a master's degree in solo performance at the Katarna Gurska Superior Conservatory under the mentorship of the renowned Bulgarian pianist Marina Gurkova.
             </p>  
-            <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000" className="AboutMeText2">
+            <input type="button" data-aos="zoom-in" className="SeeMore" id="more" onClick={handleClickShow} value="See more"/>
+            <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000" className="AboutMeText2" id="hide">
               After suffering an injury to the thumb of his right hand, which required surgery, he specialized in left-hand repertoire, leaving a small sample of it on a recent CD made in a recording studio he has at home, which includes pieces solely for said hand by Scriabin, as well as works by Rachmaninoff and Beethoven. He currently resides in Madrid, where he develops several projects with other musicians in the field of chamber music, highlighting his duet with the clarinetist Daniel Molina, and where he continues to train. as a pianist Currently, he is offering recitals with a repertoire inspired by the city of Granada, taking a sound tour of the city, which he has been able to perform in a recital he gave in Geneva in 2022 and at the Granada Conference Center this same year. In addition, he will have the opportunity to perform it at the first Aguere music festival, in Tenerife, as well as in the city of Constanza and in the European Parliament.</p>
+              <input type="button" data-aos="zoom-in" className="SeeLess" id="less" onClick={handleClickHide} value="See less"/>
           </div>
         </div>
           <Slider {...settings} className='sliderimg'>
