@@ -7,7 +7,6 @@
 
 .NavBarButton{
     padding: 1vw;
-    margin-left: 1vw;
     margin-right: 1vw;
     opacity: 0.6;
     font-size: 12px;
@@ -32,3 +31,9 @@
        font-size: 10px;
     }
   }
+
+@media (max-width: 420px) {
+    .NavBarButtonContainer{
+        display: none;
+    }
+} 

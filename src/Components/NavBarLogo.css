@@ -54,10 +54,22 @@
     }
 
     .NavBarLogoTitle{
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .NavBarLogoSubTitle{
         display: none;
     }
 }
+
+@media (max-width: 434px) {
+    .NavBarLogoTitle{
+        font-size: 29px;
+    }
+} 
+
+@media (max-width: 420px) {
+    .NavBarLogoContainerBig{
+        width: 100%;
+    }
+} 

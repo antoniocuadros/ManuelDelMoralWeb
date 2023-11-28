@@ -51,21 +51,15 @@
     text-transform: uppercase;
 }
 
-#aboutme{
+#media{
     opacity: 0.6;
 }
 
 
 .AboutMeTitle
 {
-   text-transform: uppercase;
-    background-image: linear-gradient(
-        -225deg,
-        #231557 0%,
-        #44107a 29%,
-        #ff1361 67%,
-        #fff800 100%
-    );
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100% );
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
@@ -73,13 +67,11 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 4s linear infinite;
     display: inline-block;
-        font-size: 100px;
-
+    font-size: 70px;
     margin: 0;
-
     text-align: center;
+    opacity: 0.5;
 }
 
 video{
@@ -91,6 +83,12 @@ video{
   to {
     background-position: 200% center;
   }
+}
+
+@media (max-width: 730px) {
+    .AboutMeTitle{
+        font-size: 70px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -130,3 +128,10 @@ video{
         font-size: 50px;
     }
   }
+
+
+  @media (max-width: 340px) {
+    .AboutMeTitle{
+        font-size: 40px;
+    }
+}

@@ -6,6 +6,7 @@ html {
   background-color: #FFC4A7;
   width: 100%;
   display:flex;
+  justify-content: center;
 }
 
 .NavBarItemContainer{

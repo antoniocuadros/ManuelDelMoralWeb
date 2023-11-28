@@ -7,13 +7,13 @@ import NavBarLogo from './NavBarLogo';
 function App() {
   return (
     <div className="NavBarMainContainer">
-        <NavBarLogo />
+        <NavBarLogo className="logoNav"/>
         <div className="NavBarItemContainer">
           <NavBarMenuItem className='item' itemText={"About me"} link={"aboutme"} delay={300}/>
           <NavBarMenuItem className='item' itemText={"Repertoire"} link={"repertoire"} delay={350}/>
           <NavBarMenuItem className='item' itemText={"Media"} link={"media"} delay={400}/>
         </div>
-        <NavBarButton />
+        <NavBarButton className="botonNav"/>
     </div>
   );
 }
